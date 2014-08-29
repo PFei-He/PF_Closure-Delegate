@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE3159E819A1CE9300ADA2D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3159E719A1CE9300ADA2D2 /* main.swift */; };
+		CE3159EF19A1CEBD00ADA2D2 /* A.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3159EE19A1CEBD00ADA2D2 /* A.swift */; };
+		CE3159F119A1CEC700ADA2D2 /* B.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3159F019A1CEC700ADA2D2 /* B.swift */; };
+		CE3159F519A1D43C00ADA2D2 /* C.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3159F419A1D43C00ADA2D2 /* C.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CE3159E419A1CE9300ADA2D2 /* PF_Closure&Delegate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PF_Closure&Delegate"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3159E719A1CE9300ADA2D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE3159EE19A1CEBD00ADA2D2 /* A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A.swift; sourceTree = "<group>"; };
+		CE3159F019A1CEC700ADA2D2 /* B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B.swift; sourceTree = "<group>"; };
+		CE3159F419A1D43C00ADA2D2 /* C.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CE3159E719A1CE9300ADA2D2 /* main.swift */,
+				CE3159EE19A1CEBD00ADA2D2 /* A.swift */,
+				CE3159F019A1CEC700ADA2D2 /* B.swift */,
+				CE3159F419A1D43C00ADA2D2 /* C.swift */,
 			);
 			path = "PF_Closure&Delegate";
 			sourceTree = "<group>";
@@ -118,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3159F119A1CEC700ADA2D2 /* B.swift in Sources */,
+				CE3159F519A1D43C00ADA2D2 /* C.swift in Sources */,
 				CE3159E819A1CE9300ADA2D2 /* main.swift in Sources */,
+				CE3159EF19A1CEBD00ADA2D2 /* A.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +245,7 @@
 				CE3159ED19A1CE9300ADA2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

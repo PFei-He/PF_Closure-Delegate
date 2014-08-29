@@ -8,5 +8,5 @@
 
 import Foundation
 
-println("Hello, World!")
-
+var c的对象 = C()
+c的对象.输出字符串()
